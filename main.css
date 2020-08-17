@@ -1,0 +1,246 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent; }
+
+@-ms-viewport {
+  width: device-width; }
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-family: "open sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #CFD8DC;
+  text-align: left;
+  overflow-x: hidden !important;
+}
+.navbar{
+    padding: 20px 7vw;
+    background-color: #000000;
+    transition: ease-in-out 0.3s;
+    overflow-x: hidden !important;
+}
+.changeColor{
+    background-color:rgba(10, 9, 26, 0.836) !important;
+    transition: ease-in-out 0.3s;
+}
+.logo{
+    border-radius: 50%;
+    max-width: 60px;
+}
+.navbar-brand{
+    color: #CFD8DC;
+    padding: 0 0 0 13px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.1rem;
+    transition: ease-in-out .2s;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+    color: #9ea6aa;
+}
+#navbarSupportedContent{
+    margin-left: 5vw;
+}
+.nav-link{
+    color: #CFD8DC;
+    transition: ease-in-out .2s;
+    font-size: 18px;
+    padding: 0 20px !important;
+}
+.nav-link:hover{
+    color: #9ea6aa;
+}
+.join-now-container{
+    width: 15vw;
+    
+}
+.join-now{
+    background-color: #9ea6aa;
+    color: #000000;
+    padding: 12px 22px !important;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 19px;
+    transition: ease-in-out .3s;
+}
+.join-now:hover{
+    text-decoration: none;
+    text-shadow:1px 1px 10px #ffffff, 1px 1px 10px #ffffff;
+    color: #000000;
+    box-shadow:
+    0 0 60px 3px #fff,
+    0 0 100px 6px #f0f,
+    0 0 140px 9px #0ff;
+}
+#main{
+    padding: 130px 15vw;
+    background-color: #000000;
+}
+#main > .row{
+    width: 70vw;
+}
+.display-3{
+    font-weight:400;
+}
+.main-firstHalf{
+    padding-top: 30px;
+}
+.md-txt{
+    font-size: 25px;
+}
+.regularBtn{
+    background-color: #9ea6aa;
+    color: #000000;
+    padding: 12px 22px !important;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 19px;
+    transition: ease-in-out .3s;
+}
+.regularBtn:hover{
+    text-decoration: none;
+    text-shadow:1px 1px 10px #dfdfdf, 1px 1px 10px #dfdfdf;
+    color: #000000;
+    box-shadow:
+    0 0 60px 3px #fff,
+    0 0 100px 6px #f0f,
+    0 0 140px 9px #0ff;
+}
+h2{
+    font-weight: 400;
+}
+#home2{
+    padding: 80px;
+    background-color: #03020f;
+}
+.p{
+    font-size: 24px;
+}
+.frstPara{
+    margin: 0 19vw;
+}
+#features{
+    padding: 80px 10vw;
+    background-color: #151516;
+}
+.display-4{
+    font-weight: 400;
+}
+#pricing{
+    padding: 80px 10vw;
+    background-color: #000000;
+}
+.pricing{
+    padding: 40px 60px;
+}
+.pricing > div{
+    background-color: #151516;
+    padding: 50px 20px;
+    text-align: center;
+}
+.pricing > div > ul{
+    list-style: none;
+    margin-right: 30px;
+}
+.pricing > div > ul > li{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.priceBtn{
+    background-color: rgb(156, 87, 156);
+    color: #000000;
+    padding: 12px 22px !important;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    transition: ease-in-out .3s;
+    -webkit-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+    -moz-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+    box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+}
+.priceBtn:hover{
+    color: white;
+    text-decoration: none;
+}
+.price {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  #test{
+    padding: 80px 10vw;
+    background-color: #03030f;
+  }
+  #contact{
+    padding: 80px 10vw;
+    background-color: #151516;
+  }
+  #rules{
+    padding: 80px 10vw;
+    background-color: #0f0f0f;
+  }
+  footer{
+      background-color: #000000;
+      padding: 40px 10vw;
+  }
+  .testimonialP{
+      font-size: 19px;
+      line-height: 40px;
+  }
+  .blue{
+      color: #0909ac;
+  }
+  #myDIV{
+      display: none;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .contactMe{
+      background-color: #0f0f0f;
+      padding: 30px 20px;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      border-radius: 5px;
+      margin-top: 20px;
+  }
+  .profileImG{
+      max-width: 60px;
+      border-radius: 50%;
+  }
+  .discordAPP{
+    width:50vw;
+  }
+@media (max-width: 900px){
+    .discordAPP{
+        width: 100%;
+    }
+    .frstPara{
+        margin: 0px;
+        font-size: 18px;
+    }
+}
