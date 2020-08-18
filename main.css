@@ -41,6 +41,9 @@ body {
     border-radius: 50%;
     max-width: 60px;
 }
+#imgD{
+    width: 150%;
+}
 .navbar-brand{
     color: #CFD8DC;
     padding: 0 0 0 13px;
@@ -89,6 +92,7 @@ body {
 #main{
     padding: 130px 15vw;
     background-color: #000000;
+    overflow-x: hidden;
 }
 #main > .row{
     width: 70vw;
@@ -97,7 +101,7 @@ body {
     font-weight:400;
 }
 .main-firstHalf{
-    padding-top: 30px;
+    padding-top: 180px;
 }
 .md-txt{
     font-size: 25px;
@@ -242,5 +246,15 @@ h2{
     .frstPara{
         margin: 0px;
         font-size: 18px;
+    }
+    #imgD{
+        margin-top: 50px;
+        width: 200%;
+    }
+    #home2{
+        padding: 80px 5vw;
+    }
+    .main-firstHalf{
+        padding-top: 60px;
     }
 }
