@@ -321,4 +321,7 @@ h2{
         padding: 80px 2vw;
         background-color: #000000;
     }
+    #main{
+        padding: 90px 5vw 50px 5vw;
+    }
 }
