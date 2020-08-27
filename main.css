@@ -322,10 +322,21 @@ h2{
         background-color: #000000;
     }
     #main{
-        padding: 90px 10vw 50px 10vw;
+        padding: 90px 10vw 90px 10vw;
+        background: url('WeBullPerformances.png')  no-repeat;
+        background-position: bottom left;
+    }
+    .main-firstHalf{
+        background-color: #161616b2;
+        padding: 60px 80px;
+        width: 80vw;
+    }
+    .black{
+        background-color: #000000;
     }
     #imgD{
         margin-top: 50px;
         width: 80vw;
+        display: none;
     }
 }
