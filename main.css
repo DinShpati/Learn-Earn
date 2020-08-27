@@ -319,6 +319,7 @@ h2{
     }
     #features{
         padding: 80px 0;
+        width: 100vw;
     }
     #pricing{
         padding: 80px 2vw;
