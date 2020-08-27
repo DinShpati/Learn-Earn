@@ -260,4 +260,17 @@ h2{
     .main-firstHalf{
         padding-top: 60px;
     }
+    .display-3{
+        font-size: 50px;
+    }
+    .priceBtn{
+        padding: 12px 12px !important;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: ease-in-out .3s;
+        -webkit-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+        -moz-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+        box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+    }
 }
