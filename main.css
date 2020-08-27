@@ -301,4 +301,17 @@ h2{
     .logo{
         widows: 40px;
     }
+    .join-now-container{
+        width: 50vw;     
+    }
+    .join-now{
+        background-color: #9ea6aa;
+        color: #000000;
+        padding: 7px 12px !important;
+        margin-top: 5px;
+        border-radius: 40px;
+        font-weight: 600;
+        font-size: 15px;
+        transition: ease-in-out .3s;
+    }
 }
