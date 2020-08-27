@@ -302,13 +302,13 @@ h2{
         widows: 40px;
     }
     .join-now-container{
-        width: 50vw;     
+        width: 30vw;
+        margin-top: 10px;  
     }
     .join-now{
         background-color: #9ea6aa;
         color: #000000;
         padding: 7px 16px !important;
-        margin-top: 10px;
         border-radius: 40px;
         font-weight: 600;
         font-size: 15px;
