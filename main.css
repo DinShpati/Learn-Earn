@@ -243,6 +243,9 @@ h2{
     width:50vw;
   }
 @media (max-width: 900px){
+    body{
+        overflow-x: hidden;
+    }
     .discordAPP{
         width: 100%;
     }
@@ -272,5 +275,8 @@ h2{
         -webkit-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
         -moz-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
         box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
+    }
+    .DscrdImages{
+        width: 40vw;
     }
 }
