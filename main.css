@@ -95,7 +95,7 @@ section{
 #main{
     padding: 130px 15vw;
     background-color: #000000;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 #main > .row{
     width: 70vw;
@@ -251,7 +251,7 @@ h2{
   }
 @media (max-width: 900px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .discordAPP{
         width: 100%;
@@ -299,7 +299,7 @@ h2{
         padding: 0 0 0 0;
     }
     nav{
-        overflow: hidden;
+        overflow-x: hidden !important;
     }
     .logo{
         widows: 40px;
