@@ -295,7 +295,10 @@ h2{
         font-size: 1.2rem;
         padding: 0 0 0 0;
     }
+    nav{
+        overflow: hidden;
+    }
     .logo{
-        width: 30px;
+        widows: 40px;
     }
 }
