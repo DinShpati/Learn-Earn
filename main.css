@@ -317,4 +317,8 @@ h2{
     #features{
         padding: 80px 0;
     }
+    #pricing{
+        padding: 80px 2vw;
+        background-color: #000000;
+    }
 }
