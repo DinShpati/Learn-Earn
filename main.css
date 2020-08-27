@@ -315,6 +315,6 @@ h2{
         transition: ease-in-out .3s;
     }
     #features{
-        padding: 80px 5vw;
+        padding: 80px 0;
     }
 }
