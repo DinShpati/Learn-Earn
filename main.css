@@ -130,6 +130,13 @@ section{
 h2{
     font-weight: 400;
 }
+.paddingLeft{
+    padding-left: 10vw;
+}
+.paddingLeftPaddingTop{
+    padding-right: 10vw; 
+    padding-top: 100px;
+}
 #home2{
     padding: 80px;
     background-color: #03020f;
@@ -276,7 +283,12 @@ h2{
         -moz-box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
         box-shadow: 2px 14px 33px -10px rgba(214,135,214,1);
     }
-    .DscrdImages{
-        width: 40vw;
+}
+@media (max-width: 800px){
+    .paddingLeftPaddingTop{
+        padding: 50px 0 0 0;
+    }
+    .paddingLeft{
+        padding: 0;
     }
 }
